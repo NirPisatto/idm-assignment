@@ -23,7 +23,7 @@ except FileNotFoundError:
 driver = webdriver.Chrome()
 
 # Navigate to the CNN website
-driver.get("https://www.nbcnews.com/archive/articles/2023/december/2")
+driver.get("https://www.nbcnews.com/archive/articles/2023/december")
 
 
 # Assuming the titles are in h3 tags, adjust this according to the actual HTML structure
